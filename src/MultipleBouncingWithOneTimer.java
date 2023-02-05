@@ -35,9 +35,9 @@ public class MultipleBouncingWithOneTimer{
 		DrawPanel dp = new DrawPanel();
 		frame.getContentPane().add(dp);
 		JPanel panel=new JPanel();
-		b=new JButton("½ÃÀÛ");
-		b1=new JButton("°è¼Ó");
-		b2=new JButton("Á¾·á");
+		b=new JButton("ì‹œì‘");
+		b1=new JButton("ê³„ì†");
+		b2=new JButton("ì¢…ë£Œ");
 
 		panel.add(b); panel.add(b1); panel.add(b2);
 		b.addActionListener(new ButtonListener());
@@ -46,7 +46,7 @@ public class MultipleBouncingWithOneTimer{
 
 		frame.add(panel, BorderLayout.SOUTH);
 		frame.add(dp,BorderLayout.CENTER);
-		// DELAY ¸¶ÀÌÅ©·Î ÃÊ ¸¶´Ù ¾×¼ÇÀ» »ı¼ºÇÏ´Â Timer »ı¼º. ÇÚµé·¯´Â ReboundListener¿¡
+		// DELAY ë§ˆì´í¬ë¡œ ì´ˆ ë§ˆë‹¤ ì•¡ì…˜ì„ ìƒì„±í•˜ëŠ” Timer ìƒì„±. í•¸ë“¤ëŸ¬ëŠ” ReboundListenerì—
 		timer = new Timer(DELAY, new TimerListener());
 
 		frame.setVisible(true);

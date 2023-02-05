@@ -1,12 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
 
-// ImageIcon¿¡ ÁÂÇ¥ÀÇ À§Ä¡¸¦ ºÎ¿©ÇÏ°íÀÚ ImageIcon Å¬·¡½º¸¦ »ó¼ÓÇÔ
-public class PosImageIcon extends ImageIcon {
-	int pX=0;				// ImageIconÀÇ XÁÂÇ¥
-	int pY=0;;				// ImageIconÀÇ yÁÂÇ¥
-	int width=0;			// ImageIconÀÇ ³ĞÀÌ
-	int height=0;			// ImageIconÀÇ ³ôÀÌ
+// ImageIconì— ì¢Œí‘œì˜ ìœ„ì¹˜ë¥¼ ë¶€ì—¬í•˜ê³ ì ImageIcon í´ë˜ìŠ¤ë¥¼ ìƒì†í•¨public class PosImageIcon extends ImageIcon {
+	int pX=0;					// ImageIconì˜ Xì¢Œí‘œ
+	int pY=0;;				// ImageIconì˜ yì¢Œí‘œ
+	int width=0;			// ImageIconì˜ ë„“ì´
+	int height=0;			// ImageIconì˜ ë†’ì´
 	boolean answer=true;
 	public PosImageIcon( int x, int y, int width, int height) {
 		pX=x;

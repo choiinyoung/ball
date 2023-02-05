@@ -1,7 +1,7 @@
 public class PosImageIconWithDirection extends PosImageIcon {
 
-	int moveX = 2;		// xÃàÀ¸·ÎÀÇ ¹æÇâ°ú º¸Æø
-	int moveY = 2;		// yÃàÀ¸·ÎÀÇ ¹æÇâ°ú º¸Æø
+	int moveX = 2;		// xì¶•ìœ¼ë¡œì˜ ë°©í–¥ê³¼ ë³´í­
+	int moveY = 2;		// yì¶•ìœ¼ë¡œì˜ ë°©í–¥ê³¼ ë³´í­
 	
 	public PosImageIconWithDirection( int x, int y, int width, int height) {
 		super( x, y, width, height);
